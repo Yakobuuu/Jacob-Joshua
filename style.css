@@ -372,12 +372,13 @@ header {
     
 }
 .about-wong {
-    height: 68vh;
+    height: 80vh;
 }
 .about-wong img {
     position: absolute;
     left: 18%;
     top: 177%;
+    
 }
 .box-wong {
     color: white;
@@ -387,6 +388,7 @@ header {
     position: absolute;
     left: 55%;
     top: 185%;
+    
 }
 .box-wong p{
     color: white;
