@@ -186,10 +186,10 @@ header {
     color: rgb(255, 255, 255);
 }
 .jacob {
-    position: relative;
-    left: 30%;  
+    position: absolute;
+    left: 27%;  
     height: 500px;
-    top: 50%;
+    top: 10%;
     border-radius: 500px;
     margin-top: 35px;
 }
@@ -199,7 +199,7 @@ header {
 
     position: absolute;
     top: 35%;
-    left: 74%;
+    left: 72%;
     width: 400px;
 }
 .hello-wong {
@@ -330,8 +330,8 @@ header {
 }
 .about-jacob .cob{
     margin-top: 2rem;
-    position: relative;
-    top: 80%;
+    position: absolute;
+    top: 86%;
     left: 55%;
     height: 510px;
 }
