@@ -137,10 +137,10 @@ header {
         content: "Genius";
     }
     61%,80%{
-        content: "Racist";
+        content: "Energetic";
     }
     81%,100%{
-        content: "Palamunin";
+        content: "Cheerful";
     }
 }
 @keyframes typing {
@@ -263,19 +263,19 @@ header {
 
 @keyframes words {
     0%,20%{
-        content: "Gamer";
+        content: "Leader";
     }
     21%,40%{
-        content: "Handsome";
+        content: "Confident";
     }
     41%,60%{
-        content: "Genius";
+        content: "Reliable";
     }
     61%,80%{
-        content: "Racist";
+        content: "Enthusiasm";
     }
     81%,100%{
-        content: "Palamunin";
+        content: "Attentive";
     }
 }
 @keyframes typing {
