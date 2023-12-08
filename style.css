@@ -178,11 +178,12 @@ header {
 }
 .hire-me-jacob {
     margin-right: 1rem;
+    color: #000;
 }
 .works-jacob:hover {
     background: #E50914 ;
     border: 1px solid #E50914 ;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .jacob {
     position: relative;
@@ -197,7 +198,7 @@ header {
 .content-text-wong {
 
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 71%;
     width: 400px;
 }
@@ -242,7 +243,7 @@ header {
 .animated-text-wong span::before {
     content: "Gamer";
     color: #8FC1E3;
-    animation: words 20s infinite;
+    animation: wordss 20s infinite;
 }
 .animated-text-wong span::after {
     content: "";
@@ -252,16 +253,16 @@ header {
     background: black;
     border-left: 2px solid #8FC1E3;
     right: -8px;
-    animation: cursor .8s infinite , typing 20s steps(14) infinite;
+    animation: haha .8s infinite , typing 20s steps(14) infinite;
 
 }
-@keyframes cursor {
+@keyframes haha {
     to {
         border-left: 2px solid #8FC1E3;
     }
 }
 
-@keyframes words {
+@keyframes wordss {
     0%,20%{
         content: "Leader";
     }
