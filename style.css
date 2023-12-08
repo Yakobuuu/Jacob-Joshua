@@ -371,9 +371,7 @@ header {
    font-size: 40px;
     
 }
-.about-wong {
-    height: 80vh;
-}
+
 .about-wong img {
     position: absolute;
     left: 18%;
@@ -389,6 +387,9 @@ header {
     left: 55%;
     top: 185%;
     
+}
+.container {
+    margin-bottom: 500px;
 }
 .box-wong p{
     color: white;
@@ -415,4 +416,7 @@ header {
 }
 .cob {
     margin-top: 0;
+}
+footer {
+    height: 570px;
 }
