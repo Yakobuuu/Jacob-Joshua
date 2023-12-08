@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body {
+    background: #000;
+}
+header {
+    background: #000;
+    color: white;
+}
+.container-top {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.container-top h2 {
+    color: #ffffff;
+    margin-right: 5rem;
+}
+.nav-menu ul  {
+    margin-left: 10rem;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.nav-menu ul li {
+    padding: 8px 12px;
+    margin: 0 1rem;
+}
+.nav-menu li:hover {
+    background: #ffbd39;
+    border-radius: 10px;
+    color: #000;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    color: #ffbd39;
+    border: 2px solid white;
+}
+.img-container p {
+    position: relative;
+    top: 100px;
+}
+.img-container img {
+    height: 608px;
+    width: 400px;
+    border-radius: 50%;
+    margin: 0 3rem;
+}
+.josh {
+    transform: scaleX(-1);
+    float: right;
+}
+
+.content-text-jacob {
+
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    
+}
+.hello-jacob {
+    font-size: 14px;
+    font-weight: 600;   
+    letter-spacing: 3px;
+    color: #8FC1E3;
+    margin-bottom: 1.5rem;
+}
+.text-jacob {
+    line-height: 1.2;
+    font-weight: 800;
+    color: rgb(227, 222, 222);
+    font-size: 30px;
+}
+.text-jacob h1 span {
+    color: #8FC1E3;
+}
+.text-jacob h1 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.animated-text-jacob {
+    font-size: 30px;
+    margin-bottom: 2rem;
+    color: rgb(227, 222, 222);
+}
+.animated-text-jacob span {
+    position: relative;
+
+}
+.animated-text-jacob span::before {
+    content: "Gamer";
+    color: #8FC1E3;
+    animation: words 20s infinite;
+}
+.animated-text-jacob span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background: black;
+    border-left: 2px solid #8FC1E3;
+    right: -8px;
+    animation: cursor .8s infinite , typing 20s steps(14) infinite;
+
+}
+@keyframes cursor {
+    to {
+        border-left: 2px solid #8FC1E3;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Gamer";
+    }
+    21%,40%{
+        content: "Handsome";
+    }
+    41%,60%{
+        content: "Genius";
+    }
+    61%,80%{
+        content: "Racist";
+    }
+    81%,100%{
+        content: "Palamunin";
+    }
+}
+@keyframes typing {
+    10%,15%,30%,35%,50%,70%,75%,90%,95% {
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85% {
+        width: calc(100% + 8px);
+    }
+}
+.hire-me-jacob , .works-jacob{
+    background: #8FC1E3;
+    border-radius: 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 16px 24px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    
+}
+.works-jacob {
+    background: transparent;
+    border-radius: 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 16px 24px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(227, 222, 222);
+    border: 1px solid white;
+    margin-right: 1rem;
+}
+.hire-me-jacob {
+    margin-right: 1rem;
+}
+.works-jacob:hover {
+    background: #447a9e;
+    border: 1px solid #8FC1E3;
+    color: white;
+}
+.jacob {
+    position: relative;
+    left: 30%;  
+    height: 500px;
+    top: 45%;
+    border-radius: 500px;
+}
+
+
+.content-text-wong {
+
+    position: absolute;
+    top: 30%;
+    left: 71%;
+    width: 400px;
+}
+.hello-wong {
+    font-size: 14px;
+    font-weight: 600;   
+    letter-spacing: 3px;
+    color: #8FC1E3;
+    margin-bottom: 1.5rem;
+}
+.joshua {
+    position: absolute;
+    height: 500px;
+    left: 50%;
+    top: 10%;
+    border-radius: 500px;
+    transform: scaleX(-1);
+    width: 350px;
+}
+.text-wong {
+    line-height: 1.2;
+    font-weight: 800;
+    color: rgb(227, 222, 222);
+    font-size: 30px;
+}
+.text-wong h1 span {
+    color: #8FC1E3;
+}
+.text-wong h1 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.animated-text-wong {
+    font-size: 30px;
+    margin-bottom: 2rem;
+    color: rgb(227, 222, 222);
+}
+.animated-text-wong span {
+    position: relative;
+
+}
+.animated-text-wong span::before {
+    content: "Gamer";
+    color: #8FC1E3;
+    animation: words 20s infinite;
+}
+.animated-text-wong span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background: black;
+    border-left: 2px solid #8FC1E3;
+    right: -8px;
+    animation: cursor .8s infinite , typing 20s steps(14) infinite;
+
+}
+@keyframes cursor {
+    to {
+        border-left: 2px solid #8FC1E3;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Gamer";
+    }
+    21%,40%{
+        content: "Handsome";
+    }
+    41%,60%{
+        content: "Genius";
+    }
+    61%,80%{
+        content: "Racist";
+    }
+    81%,100%{
+        content: "Palamunin";
+    }
+}
+@keyframes typing {
+    10%,15%,30%,35%,50%,70%,75%,90%,95% {
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85% {
+        width: calc(100% + 8px);
+    }
+}
+.hire-me-wong , .works-wong{
+    background: #8FC1E3;
+    border-radius: 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 16px 24px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    
+}
+.works-wong {
+    background: transparent;
+    border-radius: 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 16px 24px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(227, 222, 222);
+    border: 1px solid white;
+    margin-right: 1rem;
+}
+.hire-me-wong {
+    margin-right: 1rem;
+}
+.works-wong:hover {
+    background: #447a9e;
+    border: 1px solid #8FC1E3;
+    color: white;
+}
+
+
+.about {
+    height: 100px;
+    width: 100px;
+    border: 2px solid whit;
+}
